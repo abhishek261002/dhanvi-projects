@@ -1,0 +1,50 @@
+/* App-level styles */
+
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero section background effect */
+.hero-gradient {
+  background: linear-gradient(135deg, #0c4a6e 0%, #075985 50%, #212529 100%);
+}
+
+/* Project card hover effect */
+.project-card {
+  transition: all 0.3s ease;
+}
+
+.project-card:hover {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+/* Marquee animation */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.marquee {
+  animation: marquee 30s linear infinite;
+}
+
+.marquee:hover {
+  animation-play-state: paused;
+}
+
+/* Facility grid item hover */
+.facility-item {
+  transition: transform 0.3s ease;
+}
+
+.facility-item:hover {
+  transform: scale(1.05);
+}
+
+
