@@ -61,7 +61,7 @@ export const projectsData = [
     ],
     status: 'Completed',
     year: '2023',
-    image: 'https://via.placeholder.com/500x300?text=Tata+Memorial',
+    image: 'https://cce.ind.in/wp-content/uploads/2020/05/Tata-hospital-external-FRONT-E-scaled.jpg',
     clientCategory: 'Healthcare',
   },
   {
@@ -77,7 +77,7 @@ export const projectsData = [
     ],
     status: 'Completed',
     year: '2021',
-    image: 'https://via.placeholder.com/500x300?text=DMRC+Rail+Bridge',
+    image: 'https://images.hindustantimes.com/img/2022/04/26/1600x900/b2ee762e-c58d-11ec-8b4f-04e86421d40d_1650997426622.jpg',
     clientCategory: 'Infrastructure',
   },
   {
@@ -93,7 +93,7 @@ export const projectsData = [
     ],
     status: 'Completed',
     year: '2022',
-    image: 'https://via.placeholder.com/500x300?text=NHAI+Overpass',
+    image: 'https://etimg.etb2bimg.com/photo/127977263.cms',
     clientCategory: 'Infrastructure',
   },
 ];

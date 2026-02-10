@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { ChevronLeft, ChevronRight, ArrowUpRight } from 'lucide-react';
 import { projectsData } from '../data/projectData';
-
+import ProjectsMarquee from './ProjectsMarquee';
 /* -------------------- Project Card -------------------- */
 const ProjectCard = ({ project, index }) => {
   return (
@@ -187,6 +187,7 @@ const Projects = () => {
             Start Your Project <ArrowUpRight size={18} />
           </a>
         </div>
+        <ProjectsMarquee/>
       </div>
     </section>
   );
